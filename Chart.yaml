@@ -1,0 +1,9 @@
+apiVersion: v2
+name: my-zammad-chart
+version: 0.1.0
+description: A Helm chart for Kubernetes to deploy zammad
+
+# Define dependencies
+dependencies:
+  - name: zammad
+    version: "10.x.x"  # Use the exact version of the zammad chart you want
